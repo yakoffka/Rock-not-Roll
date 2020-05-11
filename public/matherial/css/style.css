@@ -1,0 +1,110 @@
+html, body, header, #intro {
+    height: 100%;
+}
+a {outline: none;} /* Убираем границу вокруг ссылок  */
+
+.brad3 {
+    border-radius: 3px;
+}
+
+#intro, #albums, #news, #carousel, #concerts {
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+}
+#intro {
+    background-image: url("../img/gallery/6.jpg");
+}
+#albums {
+    background-image: url("../img/gallery/3.jpg");
+}
+#news {
+    background-image: url("../img/gallery/3.jpg");
+}
+#carousel {
+    background-image: url("../img/gallery/3.jpg");
+}
+#concerts {
+    background-image: url("../img/gallery/3.jpg");
+}
+
+
+.zoom.yo_overlay img, .zoom.yo_overlay video {
+    -webkit-transition: all 0.2s linear;
+    transition: all 4.2s linear;
+}
+.overlay.yo_overlay .mask {
+    -webkit-transition: all 4.4s ease-in-out;
+    transition: all 4.2s ease-in-out;
+}
+
+
+
+
+
+
+
+nav.navbar {
+    /*background-color: rgba(23, 7, 7, 0.3);*/
+}
+nav.top-nav-collapse {
+    /*background-color: #170707;*/
+    /*opacity: 98%;*/
+}
+
+nav.navbar.navbar-dark ul.navbar-nav li.nav-item a.nav-link {
+    color: #cc0000;
+    text-shadow: 0px 0px 2px rgba(204, 0, 0, 0.79);
+}
+nav.navbar.navbar-dark ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #ff4444;
+}
+
+@media (max-width: 768px) {
+    /*.navbar:not(.top-nav-collapse) {*/
+    /*    background-color: #170707;*/
+    /*}*/
+}
+
+
+
+.rotate270 {
+    transform: rotate(270deg);
+}
+
+
+
+/* album */
+.album {
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+}
+.album.a1 {
+    background-image: url('../img/albums/274px-System_Of_A_Down_(альбом)_обложка.jpg');
+}
+.album.a2 {
+    background-image: url('../img/albums/274px-SOAD_Album_02.jpg');
+}
+.album.a3 {
+    background-image: url('../img/albums/274px-System_Of_A_Down_-_Steal_This_Album!_обложка.jpg');
+}
+.album.a4 {
+    background-image: url('../img/albums/274px-System_of_a_Down_-_Hypnotize.jpg');
+}
+.album.a5 {
+    background-image: url('../img/albums/274px-Mezmerize.jpg');
+}
+/* album */
+
+
+
+
+
+
+footer#footer .footer-copyright,
+footer#footer .footer-copyright a{
+    color: #868e96;
+}
+
+
